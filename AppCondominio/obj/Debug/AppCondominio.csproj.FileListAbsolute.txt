@@ -1,0 +1,7 @@
+C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\bin\Debug\AppCondominio.dll.config
+C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\bin\Debug\AppCondominio.dll
+C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\bin\Debug\AppCondominio.pdb
+C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\obj\Debug\AppCondominio.csprojResolveAssemblyReference.cache
+C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\obj\Debug\AppCondominio.csproj.CoreCompileInputs.cache
+C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\obj\Debug\AppCondominio.dll
+C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\obj\Debug\AppCondominio.pdb

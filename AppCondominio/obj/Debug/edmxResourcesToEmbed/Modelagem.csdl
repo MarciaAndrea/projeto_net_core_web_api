@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Modelagem" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelagemContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ServicoCodominioSet" EntityType="Modelagem.ServicoCodominio" />
+    <EntitySet Name="CidadeSet" EntityType="Modelagem.Cidade" />
+    <EntitySet Name="ApartamentoSet" EntityType="Modelagem.Apartamento" />
+    <EntitySet Name="EstadoSet" EntityType="Modelagem.Estado" />
+    <EntitySet Name="CondominioSet" EntityType="Modelagem.Condominio" />
+    <EntitySet Name="ServicoSet" EntityType="Modelagem.Servico" />
+    <EntitySet Name="ContaMoradorSet" EntityType="Modelagem.ContaMorador" />
+    <EntitySet Name="MoradorSet" EntityType="Modelagem.Morador" />
+    <EntitySet Name="ConsultaInformacaoSet" EntityType="Modelagem.ConsultaInformacao" />
+    <AssociationSet Name="EstadoCidade" Association="Modelagem.EstadoCidade">
+      <End Role="Estado" EntitySet="EstadoSet" />
+      <End Role="Cidade" EntitySet="CidadeSet" />
+    </AssociationSet>
+    <AssociationSet Name="CidadeCondominio" Association="Modelagem.CidadeCondominio">
+      <End Role="Cidade" EntitySet="CidadeSet" />
+      <End Role="Condominio" EntitySet="CondominioSet" />
+    </AssociationSet>
+    <AssociationSet Name="CondominioMorador" Association="Modelagem.CondominioMorador">
+      <End Role="Condominio" EntitySet="CondominioSet" />
+      <End Role="Morador" EntitySet="MoradorSet" />
+    </AssociationSet>
+    <AssociationSet Name="MoradorContaMorador" Association="Modelagem.MoradorContaMorador">
+      <End Role="Morador" EntitySet="MoradorSet" />
+      <End Role="ContaMorador" EntitySet="ContaMoradorSet" />
+    </AssociationSet>
+    <AssociationSet Name="CondominioSindico" Association="Modelagem.CondominioSindico">
+      <End Role="Condominio" EntitySet="CondominioSet" />
+      <End Role="Sindico" EntitySet="UsuarioSet" />
+    </AssociationSet>
+    <AssociationSet Name="CondominioServicoCodominio" Association="Modelagem.CondominioServicoCodominio">
+      <End Role="Condominio" EntitySet="CondominioSet" />
+      <End Role="ServicoCodominio" EntitySet="ServicoCodominioSet" />
+    </AssociationSet>
+    <AssociationSet Name="ServicoServicoCodominio" Association="Modelagem.ServicoServicoCodominio">
+      <End Role="Servico" EntitySet="ServicoSet" />
+      <End Role="ServicoCodominio" EntitySet="ServicoCodominioSet" />
+    </AssociationSet>
+    <AssociationSet Name="ApartamentoConsultaInformacao" Association="Modelagem.ApartamentoConsultaInformacao">
+      <End Role="Apartamento" EntitySet="ApartamentoSet" />
+      <End Role="ConsultaInformacao" EntitySet="ConsultaInformacaoSet" />
+    </AssociationSet>
+    <EntitySet Name="UsuarioSet" EntityType="Modelagem.Usuario" />
+    <AssociationSet Name="MoradorSindico" Association="Modelagem.MoradorSindico">
+      <End Role="Morador" EntitySet="MoradorSet" />
+      <End Role="Sindico" EntitySet="UsuarioSet" />
+    </AssociationSet>
+    <AssociationSet Name="EstadoCondominio" Association="Modelagem.EstadoCondominio">
+      <End Role="Estado" EntitySet="EstadoSet" />
+      <End Role="Condominio" EntitySet="CondominioSet" />
+    </AssociationSet>
+    <AssociationSet Name="CondominioApartamento" Association="Modelagem.CondominioApartamento">
+      <End Role="Condominio" EntitySet="CondominioSet" />
+      <End Role="Apartamento" EntitySet="ApartamentoSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Condominio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" />
+    <Property Name="Endereco" Type="String" Nullable="false" />
+    <Property Name="Bairro" Type="String" Nullable="false" />
+    <Property Name="CNPJ" Type="String" Nullable="false" />
+    <Property Name="NumAptos" Type="String" Nullable="false" />
+    <NavigationProperty Name="Cidade1" Relationship="Modelagem.CidadeCondominio" FromRole="Condominio" ToRole="Cidade" />
+    <NavigationProperty Name="Morador" Relationship="Modelagem.CondominioMorador" FromRole="Condominio" ToRole="Morador" />
+    <NavigationProperty Name="Sindico" Relationship="Modelagem.CondominioSindico" FromRole="Condominio" ToRole="Sindico" />
+    <NavigationProperty Name="ServicoCodominio" Relationship="Modelagem.CondominioServicoCodominio" FromRole="Condominio" ToRole="ServicoCodominio" />
+    <Property Name="CidadeId" Type="Int32" Nullable="false" />
+    <Property Name="EstadoId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Estado1" Relationship="Modelagem.EstadoCondominio" FromRole="Condominio" ToRole="Estado" />
+    <NavigationProperty Name="Apartamento" Relationship="Modelagem.CondominioApartamento" FromRole="Condominio" ToRole="Apartamento" />
+  </EntityType>
+  <EntityType Name="ContaMorador">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MoradorId" Type="Int32" Nullable="false" />
+    <Property Name="Valor" Type="String" Nullable="false" />
+    <Property Name="DataVencimento" Type="String" Nullable="false" />
+    <Property Name="DataPagamento" Type="String" Nullable="false" />
+    <Property Name="Juros" Type="String" Nullable="false" />
+    <Property Name="ValorTotal" Type="String" Nullable="false" />
+    <NavigationProperty Name="Morador1" Relationship="Modelagem.MoradorContaMorador" FromRole="ContaMorador" ToRole="Morador" />
+  </EntityType>
+  <EntityType Name="Sindico" BaseType="Modelagem.Usuario">
+    <Property Name="Nome" Type="String" Nullable="false" />
+    <Property Name="CondominioId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Condominio1" Relationship="Modelagem.CondominioSindico" FromRole="Sindico" ToRole="Condominio" />
+    <NavigationProperty Name="Morador" Relationship="Modelagem.MoradorSindico" FromRole="Sindico" ToRole="Morador" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Login" Type="String" Nullable="false" />
+    <Property Name="Senha" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ServicoCodominio">
+    <Key>
+      <PropertyRef Name="CondominioId" />
+      <PropertyRef Name="ServicoId" />
+    </Key>
+    <NavigationProperty Name="Condominio" Relationship="Modelagem.CondominioServicoCodominio" FromRole="ServicoCodominio" ToRole="Condominio" />
+    <Property Name="CondominioId" Type="Int32" Nullable="false" />
+    <Property Name="ServicoId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Servico" Relationship="Modelagem.ServicoServicoCodominio" FromRole="ServicoCodominio" ToRole="Servico" />
+  </EntityType>
+  <EntityType Name="Cidade">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" />
+    <NavigationProperty Name="Estado1" Relationship="Modelagem.EstadoCidade" FromRole="Cidade" ToRole="Estado" />
+    <NavigationProperty Name="Condominio" Relationship="Modelagem.CidadeCondominio" FromRole="Cidade" ToRole="Condominio" />
+    <Property Name="EstadoId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Apartamento">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Apto" Type="String" Nullable="false" />
+    <Property Name="CondominioId" Type="Int32" Nullable="false" />
+    <Property Name="Situacao" Type="String" Nullable="false" />
+    <NavigationProperty Name="ConsultaInformacao" Relationship="Modelagem.ApartamentoConsultaInformacao" FromRole="Apartamento" ToRole="ConsultaInformacao" />
+    <NavigationProperty Name="Condominio1" Relationship="Modelagem.CondominioApartamento" FromRole="Apartamento" ToRole="Condominio" />
+  </EntityType>
+  <EntityType Name="Servico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" />
+    <Property Name="Valor" Type="String" Nullable="false" />
+    <Property Name="Rateio" Type="String" Nullable="false" />
+    <NavigationProperty Name="ServicoCodominio" Relationship="Modelagem.ServicoServicoCodominio" FromRole="Servico" ToRole="ServicoCodominio" />
+  </EntityType>
+  <EntityType Name="Estado">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" />
+    <NavigationProperty Name="Cidade" Relationship="Modelagem.EstadoCidade" FromRole="Estado" ToRole="Cidade" />
+    <Property Name="UF" Nullable="false" Type="Int32" />
+    <NavigationProperty Name="Condominio" Relationship="Modelagem.EstadoCondominio" FromRole="Estado" ToRole="Condominio" />
+  </EntityType>
+  <EntityType Name="Morador">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" />
+    <Property Name="CPF" Type="String" Nullable="false" />
+    <Property Name="Fone" Type="String" Nullable="false" />
+    <Property Name="Apto" Type="String" Nullable="false" />
+    <NavigationProperty Name="Condominio" Relationship="Modelagem.CondominioMorador" FromRole="Morador" ToRole="Condominio" />
+    <NavigationProperty Name="ContaMorador" Relationship="Modelagem.MoradorContaMorador" FromRole="Morador" ToRole="ContaMorador" />
+    <Property Name="CondominioId" Nullable="false" Type="Int32" />
+    <NavigationProperty Name="Sindico" Relationship="Modelagem.MoradorSindico" FromRole="Morador" ToRole="Sindico" />
+  </EntityType>
+  <EntityType Name="ConsultaInformacao">
+    <Key>
+      <PropertyRef Name="ApartamentoId" />
+    </Key>
+    <Property Name="ApartamentoId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Apartamento" Relationship="Modelagem.ApartamentoConsultaInformacao" FromRole="ConsultaInformacao" ToRole="Apartamento" />
+  </EntityType>
+  <Association Name="EstadoCidade">
+    <End Type="Modelagem.Estado" Role="Estado" Multiplicity="1" />
+    <End Type="Modelagem.Cidade" Role="Cidade" Multiplicity="*" />
+  </Association>
+  <Association Name="CidadeCondominio">
+    <End Type="Modelagem.Cidade" Role="Cidade" Multiplicity="1" />
+    <End Type="Modelagem.Condominio" Role="Condominio" Multiplicity="*" />
+  </Association>
+  <Association Name="CondominioMorador">
+    <End Type="Modelagem.Condominio" Role="Condominio" Multiplicity="1" />
+    <End Type="Modelagem.Morador" Role="Morador" Multiplicity="*" />
+  </Association>
+  <Association Name="MoradorContaMorador">
+    <End Type="Modelagem.Morador" Role="Morador" Multiplicity="1" />
+    <End Type="Modelagem.ContaMorador" Role="ContaMorador" Multiplicity="*" />
+  </Association>
+  <Association Name="CondominioSindico">
+    <End Type="Modelagem.Condominio" Role="Condominio" Multiplicity="1" />
+    <End Type="Modelagem.Sindico" Role="Sindico" Multiplicity="*" />
+  </Association>
+  <Association Name="CondominioServicoCodominio">
+    <End Type="Modelagem.Condominio" Role="Condominio" Multiplicity="1" />
+    <End Type="Modelagem.ServicoCodominio" Role="ServicoCodominio" Multiplicity="*" />
+  </Association>
+  <Association Name="ServicoServicoCodominio">
+    <End Type="Modelagem.Servico" Role="Servico" Multiplicity="1" />
+    <End Type="Modelagem.ServicoCodominio" Role="ServicoCodominio" Multiplicity="*" />
+  </Association>
+  <Association Name="ApartamentoConsultaInformacao">
+    <End Type="Modelagem.Apartamento" Role="Apartamento" Multiplicity="1" />
+    <End Type="Modelagem.ConsultaInformacao" Role="ConsultaInformacao" Multiplicity="*" />
+  </Association>
+  <Association Name="MoradorSindico">
+    <End Type="Modelagem.Morador" Role="Morador" Multiplicity="1" />
+    <End Type="Modelagem.Sindico" Role="Sindico" Multiplicity="1" />
+  </Association>
+  <Association Name="EstadoCondominio">
+    <End Type="Modelagem.Estado" Role="Estado" Multiplicity="1" />
+    <End Type="Modelagem.Condominio" Role="Condominio" Multiplicity="*" />
+  </Association>
+  <Association Name="CondominioApartamento">
+    <End Type="Modelagem.Condominio" Role="Condominio" Multiplicity="1" />
+    <End Type="Modelagem.Apartamento" Role="Apartamento" Multiplicity="*" />
+  </Association>
+</Schema>
