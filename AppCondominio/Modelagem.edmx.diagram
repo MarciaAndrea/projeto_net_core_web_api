@@ -6,7 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="1e6c3203452d4fa1afab8b3fe5364d9a" Name="Diagram1" ZoomLevel="64" >
         <EntityTypeShape EntityType="Modelagem.Condominio" Width="1.5" PointX="8.5" PointY="3.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="Modelagem.ContaMorador" Width="1.5" PointX="10.875" PointY="5.5" />
+        <EntityTypeShape EntityType="Modelagem.ContaMorador" Width="1.5" PointX="10.75" PointY="2.25" />
         <EntityTypeShape EntityType="Modelagem.Sindico" Width="1.5" PointX="8.625" PointY="0.5" />
         <EntityTypeShape EntityType="Modelagem.Usuario" Width="1.5" PointX="10.75" PointY="0.5" />
         <EntityTypeShape EntityType="Modelagem.ServicoCodominio" PointX="4" PointY="3.375" Width="1.5" IsExpanded="true" />
@@ -14,8 +14,8 @@
         <EntityTypeShape EntityType="Modelagem.Apartamento" Width="1.5" PointX="4" PointY="5.75" />
         <EntityTypeShape EntityType="Modelagem.Servico" Width="1.5" PointX="4.125" PointY="0.5" />
         <EntityTypeShape EntityType="Modelagem.Estado" Width="1.5" PointX="6.25" PointY="3.375" />
-        <EntityTypeShape EntityType="Modelagem.Morador" Width="1.5" PointX="10.75" PointY="2.25" />
-        <EntityTypeShape EntityType="Modelagem.ConsultaInformacao" Width="1.5" PointX="6.25" PointY="6.625" />
+        <EntityTypeShape EntityType="Modelagem.Morador" Width="1.5" PointX="10.875" PointY="5.25" />
+        <EntityTypeShape EntityType="Modelagem.ApartamentoCondominio" Width="1.5" PointX="6.25" PointY="5.625" />
         <AssociationConnector Association="Modelagem.EstadoCidade" />
         <AssociationConnector Association="Modelagem.CidadeCondominio" ManuallyRouted="false" >
         </AssociationConnector>
@@ -35,7 +35,8 @@
         <InheritanceConnector EntityType="Modelagem.Sindico" />
         <AssociationConnector Association="Modelagem.MoradorSindico" />
         <AssociationConnector Association="Modelagem.EstadoCondominio" />
-        <AssociationConnector Association="Modelagem.CondominioApartamento" />
+        <AssociationConnector Association="Modelagem.ApartamentoMorador" />
+        <AssociationConnector Association="Modelagem.CondominioApartamentoCondominio" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

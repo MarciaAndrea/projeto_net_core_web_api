@@ -5,3 +5,9 @@ C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\obj\Debug\AppCon
 C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\obj\Debug\AppCondominio.csproj.CoreCompileInputs.cache
 C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\obj\Debug\AppCondominio.dll
 C:\Users\Marcia Andrea\source\repos\AppCondominio\AppCondominio\obj\Debug\AppCondominio.pdb
+D:\Git\PortableGit-2.15.1.2-64-bit.7z\projeto_webapi\AppCondominio\bin\Debug\AppCondominio.dll.config
+D:\Git\PortableGit-2.15.1.2-64-bit.7z\projeto_webapi\AppCondominio\bin\Debug\AppCondominio.dll
+D:\Git\PortableGit-2.15.1.2-64-bit.7z\projeto_webapi\AppCondominio\bin\Debug\AppCondominio.pdb
+D:\Git\PortableGit-2.15.1.2-64-bit.7z\projeto_webapi\AppCondominio\obj\Debug\AppCondominio.csproj.CoreCompileInputs.cache
+D:\Git\PortableGit-2.15.1.2-64-bit.7z\projeto_webapi\AppCondominio\obj\Debug\AppCondominio.dll
+D:\Git\PortableGit-2.15.1.2-64-bit.7z\projeto_webapi\AppCondominio\obj\Debug\AppCondominio.pdb
