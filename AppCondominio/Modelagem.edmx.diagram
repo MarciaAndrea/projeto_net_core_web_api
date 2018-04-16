@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="1e6c3203452d4fa1afab8b3fe5364d9a" Name="Diagram1" ZoomLevel="64" >
+      <Diagram DiagramId="1e6c3203452d4fa1afab8b3fe5364d9a" Name="Diagram1" ZoomLevel="73" >
         <EntityTypeShape EntityType="Modelagem.Condominio" Width="1.5" PointX="8.5" PointY="3.625" IsExpanded="true" />
         <EntityTypeShape EntityType="Modelagem.ContaMorador" Width="1.5" PointX="10.75" PointY="2.25" />
         <EntityTypeShape EntityType="Modelagem.Sindico" Width="1.5" PointX="8.625" PointY="0.5" />

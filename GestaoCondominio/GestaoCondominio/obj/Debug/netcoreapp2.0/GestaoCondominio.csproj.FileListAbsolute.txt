@@ -1,0 +1,13 @@
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.deps.json
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.runtimeconfig.json
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.runtimeconfig.dev.json
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.dll
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.pdb
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.csprojResolveAssemblyReference.cache
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.csproj.CoreCompileInputs.cache
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.AssemblyInfoInputs.cache
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.AssemblyInfo.cs
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.dll
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.pdb
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\Entidades.dll
+C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\Entidades.pdb
