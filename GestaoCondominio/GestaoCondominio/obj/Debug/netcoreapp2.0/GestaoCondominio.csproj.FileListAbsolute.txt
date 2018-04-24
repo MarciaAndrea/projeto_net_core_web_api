@@ -11,3 +11,42 @@ C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\obj\Debug\
 C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.pdb
 C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\Entidades.dll
 C:\Users\Marcia Andrea\source\repos\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\Entidades.pdb
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.deps.json
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.runtimeconfig.json
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.runtimeconfig.dev.json
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.dll
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.pdb
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\Entidades.dll
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\Entidades.pdb
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.csprojResolveAssemblyReference.cache
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.csproj.CoreCompileInputs.cache
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.AssemblyInfoInputs.cache
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.AssemblyInfo.cs
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.dll
+E:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.pdb
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.deps.json
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.runtimeconfig.json
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.runtimeconfig.dev.json
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.dll
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.pdb
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\Entidades.dll
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\Entidades.pdb
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.csprojResolveAssemblyReference.cache
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.csproj.CoreCompileInputs.cache
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.AssemblyInfoInputs.cache
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.AssemblyInfo.cs
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.dll
+I:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.pdb
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.deps.json
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.runtimeconfig.json
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.runtimeconfig.dev.json
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.dll
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\GestaoCondominio.pdb
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\Entidades.dll
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\bin\Debug\netcoreapp2.0\Entidades.pdb
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.csprojResolveAssemblyReference.cache
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.csproj.CoreCompileInputs.cache
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.AssemblyInfoInputs.cache
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.AssemblyInfo.cs
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.dll
+D:\projeto_webapi\GestaoCondominio\GestaoCondominio\obj\Debug\netcoreapp2.0\GestaoCondominio.pdb

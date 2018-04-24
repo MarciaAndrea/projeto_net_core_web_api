@@ -7,3 +7,30 @@ C:\Users\Marcia Andrea\source\repos\GestaoCondominio\Entidades\obj\Debug\netcore
 C:\Users\Marcia Andrea\source\repos\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.AssemblyInfo.cs
 C:\Users\Marcia Andrea\source\repos\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.dll
 C:\Users\Marcia Andrea\source\repos\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.pdb
+E:\projeto_webapi\GestaoCondominio\Entidades\bin\Debug\netcoreapp2.0\Entidades.deps.json
+E:\projeto_webapi\GestaoCondominio\Entidades\bin\Debug\netcoreapp2.0\Entidades.dll
+E:\projeto_webapi\GestaoCondominio\Entidades\bin\Debug\netcoreapp2.0\Entidades.pdb
+E:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.csprojResolveAssemblyReference.cache
+E:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.csproj.CoreCompileInputs.cache
+E:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.AssemblyInfoInputs.cache
+E:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.AssemblyInfo.cs
+E:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.dll
+E:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.pdb
+I:\projeto_webapi\GestaoCondominio\Entidades\bin\Debug\netcoreapp2.0\Entidades.deps.json
+I:\projeto_webapi\GestaoCondominio\Entidades\bin\Debug\netcoreapp2.0\Entidades.dll
+I:\projeto_webapi\GestaoCondominio\Entidades\bin\Debug\netcoreapp2.0\Entidades.pdb
+I:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.csproj.CoreCompileInputs.cache
+I:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.AssemblyInfoInputs.cache
+I:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.AssemblyInfo.cs
+I:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.dll
+I:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.pdb
+D:\projeto_webapi\GestaoCondominio\Entidades\bin\Debug\netcoreapp2.0\Entidades.deps.json
+D:\projeto_webapi\GestaoCondominio\Entidades\bin\Debug\netcoreapp2.0\Entidades.dll
+D:\projeto_webapi\GestaoCondominio\Entidades\bin\Debug\netcoreapp2.0\Entidades.pdb
+D:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.csprojResolveAssemblyReference.cache
+D:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.csproj.CoreCompileInputs.cache
+D:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.AssemblyInfoInputs.cache
+D:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.AssemblyInfo.cs
+D:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.dll
+D:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.pdb
+I:\projeto_webapi\GestaoCondominio\Entidades\obj\Debug\netcoreapp2.0\Entidades.csprojResolveAssemblyReference.cache

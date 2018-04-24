@@ -6,13 +6,6 @@ namespace Entidades.Models
 {
     public class Condominio
     {
-        public Condominio()
-        {
-            Moradores = new List<Morador>();
-            ServicoCodominios = new List<ServicoCondominio>();
-            ApartamentoCondominios = new List<ApartamentoCondominio>();
-        }
-
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Endereco { get; set; }
@@ -29,5 +22,12 @@ namespace Entidades.Models
         public virtual Estado Estados { get; set; }
 
         public virtual ICollection<ApartamentoCondominio> ApartamentoCondominios { get; set; }
+
+        public Condominio()
+        {
+            Moradores = new List<Morador>();
+            ServicoCodominios = new List<ServicoCondominio>();
+            ApartamentoCondominios = new List<ApartamentoCondominio>();
+        }
     }
 }

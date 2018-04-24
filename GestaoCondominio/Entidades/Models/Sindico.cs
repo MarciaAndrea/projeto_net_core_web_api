@@ -8,8 +8,10 @@ namespace Entidades.Models
     {
         public int Id { get; set; }
         public string Nome { get; set; }
+        public int UsuarioId { get; set; }
+
+        public virtual Usuario Usuario { get; set; }
         public virtual Condominio Condominios { get; set; }
         public virtual Morador Moradores { get; set; }
-
     }
 }

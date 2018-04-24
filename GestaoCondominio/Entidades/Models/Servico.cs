@@ -6,10 +6,6 @@ namespace Entidades.Models
 {
     public class Servico
     {
-        public Servico()
-        {
-            ServicoCodominios = new List<ServicoCondominio>();
-        }
 
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -17,5 +13,10 @@ namespace Entidades.Models
         public decimal Rateio { get; set; }
 
         public virtual ICollection<ServicoCondominio> ServicoCodominios { get; set; }
+
+        public Servico()
+        {
+            ServicoCodominios = new List<ServicoCondominio>();
+        }
     }
 }

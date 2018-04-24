@@ -6,10 +6,6 @@ namespace Entidades.Models
 {
     public class Morador
     {
-        public Morador()
-        {
-            ContaMoradores = new List<ContaMorador>();
-        }
 
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -22,5 +18,10 @@ namespace Entidades.Models
         public virtual ICollection<ContaMorador> ContaMoradores { get; set; }
         public virtual Sindico Sindico { get; set; }
         public virtual Apartamento Apartamentos { get; set; }
+
+        public Morador()
+        {
+            ContaMoradores = new List<ContaMorador>();
+        }
     }
 }

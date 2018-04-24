@@ -6,12 +6,6 @@ namespace Entidades.Models
 {
     public class Apartamento
     {
-        public Apartamento()
-        {
-            ApartamentoCondominios = new List<ApartamentoCondominio>();
-            Moradores = new List<Morador>();
-        }
-
         public int Id { get; set; }
         public string Apto { get; set; }
         public string Situacao { get; set; }
@@ -19,5 +13,11 @@ namespace Entidades.Models
 
         public virtual ICollection<ApartamentoCondominio> ApartamentoCondominios { get; set; }
         public virtual ICollection<Morador> Moradores { get; set; }
+
+        public Apartamento()
+        {
+            ApartamentoCondominios = new List<ApartamentoCondominio>();
+            Moradores = new List<Morador>();
+        }
     }
 }

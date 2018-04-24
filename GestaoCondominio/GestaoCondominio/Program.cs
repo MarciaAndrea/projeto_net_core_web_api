@@ -14,7 +14,19 @@ namespace GestaoCondominio
     {
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
+            var config = new ConfigurationBuilder()
+           .SetBasePath(Directory.GetCurrentDirectory())
+           .AddJsonFile("appsettings.json")
+           .Build();
+            var host = new WebHostBuilder()
+                .UseKestrel()
+                .UseUrls("http://*:63637")
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseStartup<Startup>()
+                .UseConfiguration(config)
+                .Build();
+            host.Run();
+            //BuildWebHost(args).Run();
         }
 
         public static IWebHost BuildWebHost(string[] args) =>

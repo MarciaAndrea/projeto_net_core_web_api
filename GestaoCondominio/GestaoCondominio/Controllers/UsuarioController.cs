@@ -20,7 +20,15 @@ namespace GestaoCondominio.Controllers
         [HttpGet]
         public IEnumerable<Usuario> GetAll()
         {
-            return _context.Usuarios.ToList();
+            try
+            {
+                return _context.Usuarios.ToList();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         [HttpGet("{id}", Name = "GetUsuario")]
